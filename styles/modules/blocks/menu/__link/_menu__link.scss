@@ -1,0 +1,23 @@
+.menu__link {
+  color: $mainColor;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  margin-right: 20px;
+
+  &:first-of-type {
+    margin-left: 50px;
+  }
+  
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  &:hover {
+    opacity: .6;
+    transition: .3s;
+  }
+}
+
