@@ -1,0 +1,9 @@
+.gallery__arrow_type_right {
+  transform: rotate(180deg);
+  margin-left: 30px;
+
+  &:hover {
+    opacity: .6;
+    transition: .3s;
+  }
+}

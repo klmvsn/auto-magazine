@@ -18,3 +18,36 @@
 
 @import "./modules/blocks/facts/facts";
 @import "./modules/blocks/facts/__main-fact/facts__main-fact";
+@import "./modules/blocks/facts/__accent/facts__accent";
+@import "./modules/blocks/facts/__column/facts__column";
+@import "./modules/blocks/facts/__title/facts__title";
+@import "./modules/blocks/facts/__list/facts__list";
+@import "./modules/blocks/facts/__list/_type/facts__list_type_plus";
+@import "./modules/blocks/facts/__list/_type/facts__list_type_minus";
+
+@import "./modules/blocks/gallery/gallery";
+@import "./modules/blocks/gallery/__photo/gallery__photo";
+@import "./modules/blocks/gallery/__row/gallery__row";
+@import "./modules/blocks/gallery/__title/gallery__title";
+@import "./modules/blocks/gallery/__controls/gallery__controls";
+@import "./modules/blocks/gallery/__arrow/_type/gallery__arrow_type_right";
+
+@import "./modules/blocks/press/press";
+@import "./modules/blocks/press/__title/press__title";
+@import "./modules/blocks/press/__sources/press__sources";
+@import "./modules/blocks/press/__source/press__source";
+@import "./modules/blocks/press/__accent/press__accent";
+@import "./modules/blocks/press/__controls/press__controls";
+@import "./modules/blocks/press/__slider-dot/press__slider-dot";
+@import "./modules/blocks/press/__slider-dot/_type/press__slider-dot_type_active";
+@import "./modules/blocks/press/__read/press__read";
+
+@import "./modules/blocks/footer/footer";
+@import "./modules/blocks/footer/__column/footer__column";
+@import "./modules/blocks/footer/__title/footer__title";
+@import "./modules/blocks/footer/__subscribe/footer__subscribe";
+@import "./modules/blocks/footer/__form/footer__form";
+@import "./modules/blocks/footer/__row/footer__row";
+@import "./modules/blocks/footer/__input/footer__input";
+@import "./modules/blocks/footer/__button/footer__button";
+@import "./modules/blocks/footer/__copyright/footer__copyright";

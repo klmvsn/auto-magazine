@@ -1,0 +1,7 @@
+.footer__row {
+  display: flex;
+
+  &:first-of-type {
+    border-bottom: 1px solid $mainColor;
+  }
+}

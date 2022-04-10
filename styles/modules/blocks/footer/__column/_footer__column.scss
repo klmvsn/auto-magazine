@@ -1,0 +1,14 @@
+.footer__column {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+
+  &:first-of-type {
+    border-right: 1px solid $mainColor;
+  }
+
+  &:last-of-type {
+    justify-self: flex-end;
+    justify-content: space-between;
+  }
+}

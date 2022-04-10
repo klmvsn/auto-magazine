@@ -1,0 +1,15 @@
+.press__read {
+  color: $mainColor;
+  text-decoration: none;
+  font-size: 19px;
+  line-height: 28px;
+  padding: 12px 26px;
+  border: 1px solid $mainColor;
+  border-radius: 50%;
+
+  &:hover {
+    background-color: $mainColor;
+    color: $backgroundColor;
+    transition: .5s;
+  }
+}

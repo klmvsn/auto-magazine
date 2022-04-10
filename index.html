@@ -37,14 +37,14 @@
       <img src="./images/first-screen.jpg" alt="Volkswagen T1" class="first-screen__photo">
     </section>
     <section class="facts">
-      <p class="facts__main-fact"><span class="facts__accent">VW T1 Electro:</span>Отделение Volkswagen
+      <p class="facts__main-fact"><span class="facts__accent">VW T1 Electro: </span>Отделение Volkswagen
         Commercial Vehicles представило концепт e-Bulli: классический вэн T1 1966 года с&nbsp;электрической
         силовой установкой. По&nbsp;словам производителя, проект получит коммерческое продолжение, и&nbsp;
         через фирму-партнера eClassics наборы для конверсии микроавтобусов в&nbsp;электрокары
         и&nbsp;уже готовые машины будут продавать частным клиентам.</p>
       <div class="facts__column">
         <h2 class="facts__title">Плюсы</h2>
-        <ul class="facts__list">
+        <ul class="facts__list facts__list_type_plus">
           <li class="facts__list-item">Экологичный</li>
           <li class="facts__list-item">Экономный</li>
           <li class="facts__list-item">Тихий</li>
@@ -52,13 +52,57 @@
       </div>
       <div class="facts__column">
         <h2 class="facts__title">Минусы</h2>
-        <ul class="facts__list">
+        <ul class="facts__list facts__list_type_minus">
           <li class="facts__list-item">Дорогой</li>
           <li class="facts__list-item">Подзарядка</li>
         </ul>
       </div>
     </section>
+    <section class="gallery">
+      <img src="./images/gallery-1.jpg" alt="Volkswagen T1 едет по дороге" class="gallery__photo">
+      <div class="gallery__row">
+        <h2 class="gallery__title">Галерея</h2>
+        <div class="gallery__controls">
+          <img src="./images/arrow.svg" alt="Стрелка влево" class="gallery__arrow gallery__arrow_type_left">
+          <img src="./images/arrow.svg" alt="Стрелка влево" class="gallery__arrow gallery__arrow_type_right">
+        </div>
+      </div>
+    </section>
+    <section class="press">
+      <h2 class="press__title">Пресса</h2>
+      <div class="press__sources">
+        <p class="press__source"><span class="press__accent">Engadget: </span>VW’s e-BULLI concept
+          shows how your classic van can become an EV.</p>
+        <div class="press__controls">
+          <div class="press__slider-controls">
+            <div class="press__slider-dot press__slider-dot_type_active"></div>
+            <div class="press__slider-dot"></div>
+          </div>
+          <a href="#" class="press__read">Читать</a>
+        </div>
+      </div>
+    </section>
   </main>
+  <footer class="footer">
+    <div class="footer__column">
+      <h2 class="footer__title">Подписка</h2>
+      <p class="footer__subscribe">На новые спецвыпуски машин.</p>
+      <form action="#" class="footer__form">
+        <div class="footer__row">
+          <input type="text" class="footer__input" placeholder="Имя">
+          <input type="text" class="footer__input" placeholder="Фамилия">
+        </div>
+        <div class="footer__row">
+          <input type="email" class="footer__input" placeholder="Почта">
+          <button class="footer__button">Подписка</button>
+        </div>
+      </form>
+    </div>
+    <div class="footer__column">
+      <img src="./images/logo.svg" alt="Логотип Auto-magazine" class="footer__logo">
+      <p class="footer__copyright">&copy; Auto-Magazine 2022</p>
+    </div>
+  </footer>
 </body>
 
 </html>

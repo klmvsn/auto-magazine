@@ -1,6 +1,6 @@
-.facts {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+.press {
   border-top: 1px solid $mainColor;
   border-bottom: 1px solid $mainColor;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
